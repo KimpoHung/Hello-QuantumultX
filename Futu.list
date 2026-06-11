@@ -1,25 +1,44 @@
-# > 富途牛牛 / Futubull HK
-# > 更新时间：2026-06-11
-# > 适用：QuantumultX filter_remote
+> 富途牛牛 / Futubull HK
 
-# 核心主站
-HOST-SUFFIX, futunn.com, 香港节点
-HOST-SUFFIX, futuhk.com, 香港节点
-HOST-SUFFIX, futubull.com, 香港节点
-HOST-SUFFIX, futuholdings.com, 香港节点
+> 更新时间：2026-06-11
 
-# OpenAPI / 行情接口
-HOST-SUFFIX, openapi.futunn.com, 香港节点
-HOST-SUFFIX, futuopend.com, 香港节点
+> 适用：Quantumult X filter_remote
 
-# CDN / 静态资源
-HOST-SUFFIX, futu-img.com, 香港节点
-HOST-SUFFIX, futu-inc.com, 香港节点
-HOST-SUFFIX, futucdn.com, 香港节点
+> 说明：富途牛牛 / Futubull / moomoo 走香港节点
 
-# moomoo 国际品牌
-HOST-SUFFIX, moomoo.com, 香港节点
+核心主站
 
-# IP 段（香港数据中心）
-IP-CIDR, 103.195.100.0/22, 香港节点, no-resolve
-IP-CIDR, 103.195.104.0/22, 香港节点, no-resolve
+HOST-SUFFIX,futunn.com,香港节点
+HOST-SUFFIX,futuhk.com,香港节点
+HOST-SUFFIX,futubull.com,香港节点
+HOST-SUFFIX,futuholdings.com,香港节点
+
+OpenAPI / 行情 / 交易接口
+
+HOST-SUFFIX,futuopend.com,香港节点
+HOST,openapi.futunn.com,香港节点
+
+CDN / 静态资源
+
+HOST-SUFFIX,futu-img.com,香港节点
+HOST-SUFFIX,futu-inc.com,香港节点
+HOST-SUFFIX,futucdn.com,香港节点
+HOST-SUFFIX,futunnstatic.com,香港节点
+HOST-SUFFIX,futu5.com,香港节点
+HOST-SUFFIX,futuoa.com,香港节点
+
+moomoo 国际品牌
+
+HOST-SUFFIX,moomoo.com,香港节点
+HOST-SUFFIX,moomooapp.com,香港节点
+
+关键词兜底
+
+HOST-KEYWORD,futunn,香港节点
+HOST-KEYWORD,futu,香港节点
+HOST-KEYWORD,moomoo,香港节点
+
+IP 段
+
+IP-CIDR,103.195.100.0/22,香港节点,no-resolve
+IP-CIDR,103.195.104.0/22,香港节点,no-resolve
