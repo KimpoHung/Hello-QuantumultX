@@ -1,16 +1,21 @@
 # > 富途牛牛 / Futubull / Moomoo
-# > Quantumult X 轻量稳定版
+# > Quantumult X 中等稳定版
 # > 策略：香港节点
+# > 订阅：https://raw.githubusercontent.com/KimpoHung/Hello-QuantumultX/main/Futu.list
 
-# Futu 核心
+# =========================
+# Futu 核心域名
+# =========================
 HOST-SUFFIX,futunn.com,香港节点
-HOST-SUFFIX,futubull.com,香港节点
-HOST-SUFFIX,futuhk.com,香港节点
 HOST-SUFFIX,futu.com,香港节点
 HOST-SUFFIX,futu.cn,香港节点
 HOST-SUFFIX,futu.link,香港节点
+HOST-SUFFIX,futubull.com,香港节点
+HOST-SUFFIX,futubull.cn,香港节点
 
-# Futu 备用域名
+# =========================
+# Futu 备用 / 数字域名
+# =========================
 HOST-SUFFIX,futu0.com,香港节点
 HOST-SUFFIX,futu1.com,香港节点
 HOST-SUFFIX,futu2.com,香港节点
@@ -22,18 +27,58 @@ HOST-SUFFIX,futu7.com,香港节点
 HOST-SUFFIX,futu8.com,香港节点
 HOST-SUFFIX,futu9.com,香港节点
 
-# Futu 香港 / 交易 / 资源
+# =========================
+# Futu 香港 / 交易 / 账户 / 静态资源
+# =========================
+HOST-SUFFIX,futuhk.com,香港节点
 HOST-SUFFIX,futuhk2.com,香港节点
 HOST-SUFFIX,futuhkapp.com,香港节点
 HOST-SUFFIX,futuholdings.com,香港节点
+HOST-SUFFIX,futuinc.com,香港节点
+HOST-SUFFIX,futuniuniu.com,香港节点
+HOST-SUFFIX,futuchain.com,香港节点
 HOST-SUFFIX,futustatic.com,香港节点
 HOST-SUFFIX,futu-img.com,香港节点
+HOST-SUFFIX,fututrade.com,香港节点
+HOST-SUFFIX,fututrustee.com,香港节点
+HOST-SUFFIX,futufin.com,香港节点
+HOST-SUFFIX,futuesop.com,香港节点
+HOST-SUFFIX,futuau.com,香港节点
+
+# =========================
+# Futu OpenAPI / OpenD
+# =========================
 HOST-SUFFIX,futuopend.com,香港节点
 HOST-SUFFIX,openapi.futunn.com,香港节点
 HOST-SUFFIX,api.futunn.com,香港节点
 
+# =========================
 # Moomoo 海外体系
+# =========================
 HOST-SUFFIX,moomoo.com,香港节点
 HOST-SUFFIX,moomoobull.com,香港节点
 HOST-SUFFIX,moomooequity.com,香港节点
 HOST-SUFFIX,moomootrustee.com,香港节点
+
+# =========================
+# 推送 / IM / 归因
+# =========================
+HOST-SUFFIX,shortconn.im.qcloud.com,香港节点
+HOST-SUFFIX,9oju31.launches.appsflyersdk.com,香港节点
+HOST-SUFFIX,sgqt0j.launches.appsflyersdk.com,香港节点
+
+# =========================
+# 关键单 IP，不放大段，减少卡顿
+# =========================
+IP-CIDR,43.134.158.106/32,香港节点,no-resolve
+IP-CIDR,43.132.138.6/32,香港节点,no-resolve
+IP-CIDR,119.28.201.30/32,香港节点,no-resolve
+IP-CIDR,49.51.77.113/32,香港节点,no-resolve
+IP-CIDR,43.153.234.107/32,香港节点,no-resolve
+IP-CIDR,43.153.249.33/32,香港节点,no-resolve
+IP-CIDR,43.163.17.229/32,香港节点,no-resolve
+IP-CIDR,42.194.152.250/32,香港节点,no-resolve
+IP-CIDR,43.132.106.6/32,香港节点,no-resolve
+IP-CIDR,43.132.106.8/32,香港节点,no-resolve
+IP-CIDR,43.132.138.67/32,香港节点,no-resolve
+IP-CIDR,1.15.158.235/32,香港节点,no-resolve
