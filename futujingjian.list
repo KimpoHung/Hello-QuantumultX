@@ -1,0 +1,39 @@
+# > 富途牛牛 / Futubull / Moomoo
+# > Quantumult X 轻量稳定版
+# > 策略：香港节点
+
+# Futu 核心
+HOST-SUFFIX,futunn.com,香港节点
+HOST-SUFFIX,futubull.com,香港节点
+HOST-SUFFIX,futuhk.com,香港节点
+HOST-SUFFIX,futu.com,香港节点
+HOST-SUFFIX,futu.cn,香港节点
+HOST-SUFFIX,futu.link,香港节点
+
+# Futu 备用域名
+HOST-SUFFIX,futu0.com,香港节点
+HOST-SUFFIX,futu1.com,香港节点
+HOST-SUFFIX,futu2.com,香港节点
+HOST-SUFFIX,futu3.com,香港节点
+HOST-SUFFIX,futu4.com,香港节点
+HOST-SUFFIX,futu5.com,香港节点
+HOST-SUFFIX,futu6.com,香港节点
+HOST-SUFFIX,futu7.com,香港节点
+HOST-SUFFIX,futu8.com,香港节点
+HOST-SUFFIX,futu9.com,香港节点
+
+# Futu 香港 / 交易 / 资源
+HOST-SUFFIX,futuhk2.com,香港节点
+HOST-SUFFIX,futuhkapp.com,香港节点
+HOST-SUFFIX,futuholdings.com,香港节点
+HOST-SUFFIX,futustatic.com,香港节点
+HOST-SUFFIX,futu-img.com,香港节点
+HOST-SUFFIX,futuopend.com,香港节点
+HOST-SUFFIX,openapi.futunn.com,香港节点
+HOST-SUFFIX,api.futunn.com,香港节点
+
+# Moomoo 海外体系
+HOST-SUFFIX,moomoo.com,香港节点
+HOST-SUFFIX,moomoobull.com,香港节点
+HOST-SUFFIX,moomooequity.com,香港节点
+HOST-SUFFIX,moomootrustee.com,香港节点
