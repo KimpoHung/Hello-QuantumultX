@@ -1,61 +1,149 @@
-# > 富途牛牛 / Futubull HK
-# > 更新时间：2026-06-11
-# > 适用：Quantumult X filter_remote
-# > 说明：富途牛牛 / Futubull / moomoo 走香港节点
+> 富途牛牛 / Futubull / moomoo HK
 
-# 核心主站
-HOST-SUFFIX,futunn.com,香港节点
-HOST-SUFFIX,futuhk.com,香港节点
-HOST-SUFFIX,futuholdings.com,香港节点
-HOST-SUFFIX,futubull.com,香港节点
-HOST-SUFFIX,futubull.cn,香港节点
+> 更新时间：2026-06-12
 
-# 富途公开规则常见域名
-HOST-SUFFIX,futu.com,香港节点
-HOST-SUFFIX,futu.cn,香港节点
-HOST-SUFFIX,futu.link,香港节点
-HOST-SUFFIX,futuhn.com,香港节点
-HOST-SUFFIX,futu0.com,香港节点
-HOST-SUFFIX,futu1.com,香港节点
-HOST-SUFFIX,futu2.com,香港节点
-HOST-SUFFIX,futu3.com,香港节点
-HOST-SUFFIX,futu4.com,香港节点
-HOST-SUFFIX,futu5.com,香港节点
-HOST-SUFFIX,futu6.com,香港节点
-HOST-SUFFIX,futu7.com,香港节点
-HOST-SUFFIX,futu8.com,香港节点
-HOST-SUFFIX,futu9.com,香港节点
+> 适用：Quantumult X Filter 订阅
 
-# 富途业务 / 静态 / CDN
-HOST-SUFFIX,futuinc.com,香港节点
-HOST-SUFFIX,futuniuniu.com,香港节点
-HOST-SUFFIX,futufin.com,香港节点
-HOST-SUFFIX,futuesop.com,香港节点
-HOST-SUFFIX,futuchain.com,香港节点
-HOST-SUFFIX,futucdn.com,香港节点
-HOST-SUFFIX,futunnstatic.com,香港节点
-HOST-SUFFIX,futu-img.com,香港节点
-HOST-SUFFIX,futu-inc.com,香港节点
-HOST,cdn.futustatic.com,香港节点
+> 参考：blackmatrix7/ios_rule_script issue #1687
 
-# OpenAPI / 行情接口
-HOST,openapi.futunn.com,香港节点
-HOST-SUFFIX,futuopend.com,香港节点
+> 说明：富途牛牛 / Futubull / moomoo 相关流量走香港策略组
 
-# moomoo 国际品牌
-HOST-SUFFIX,moomoo.com,香港节点
-HOST-SUFFIX,moomooapp.com,香港节点
+Futu - 核心域名
 
-# 关键词兜底
-HOST-KEYWORD,futunn,香港节点
-HOST-KEYWORD,futu,香港节点
-HOST-KEYWORD,moomoo,香港节点
+HOST-SUFFIX,futu.link,📈 富途牛牛
+HOST-SUFFIX,futu.com,📈 富途牛牛
+HOST-SUFFIX,futu.cn,📈 富途牛牛
+HOST-SUFFIX,futunn.com,📈 富途牛牛
 
-# IP 段：公开规则里有人收过这些，建议先放后面测试
-IP-CIDR,119.28.37.77/24,香港节点,no-resolve
-IP-CIDR,43.153.233.212/24,香港节点,no-resolve
-IP-CIDR,124.156.233.21/24,香港节点,no-resolve
-IP-CIDR,170.106.49.68/24,香港节点,no-resolve
-IP-CIDR,119.91.245.125/24,香港节点,no-resolve
-IP-CIDR,43.153.191.154/24,香港节点,no-resolve
-IP-CIDR,101.32.198.91/24,香港节点,no-resolve
+Futu - 数字备用域名
+
+HOST-SUFFIX,futu0.com,📈 富途牛牛
+HOST-SUFFIX,futu1.com,📈 富途牛牛
+HOST-SUFFIX,futu2.com,📈 富途牛牛
+HOST-SUFFIX,futu3.com,📈 富途牛牛
+HOST-SUFFIX,futu4.com,📈 富途牛牛
+HOST-SUFFIX,futu5.com,📈 富途牛牛
+HOST-SUFFIX,futu6.com,📈 富途牛牛
+HOST-SUFFIX,futu7.com,📈 富途牛牛
+HOST-SUFFIX,futu8.com,📈 富途牛牛
+HOST-SUFFIX,futu9.com,📈 富途牛牛
+
+Futu - 区域 / 业务 / 交易 / 静态资源
+
+HOST-SUFFIX,futuau.com,📈 富途牛牛
+HOST-SUFFIX,futuesop.com,📈 富途牛牛
+HOST-SUFFIX,futufin.com,📈 富途牛牛
+HOST-SUFFIX,futuhk.com,📈 富途牛牛
+HOST-SUFFIX,futuhk2.com,📈 富途牛牛
+HOST-SUFFIX,futuhkapp.com,📈 富途牛牛
+HOST-SUFFIX,futuhn.com,📈 富途牛牛
+HOST-SUFFIX,futuholdings.com,📈 富途牛牛
+HOST-SUFFIX,futuinc.com,📈 富途牛牛
+HOST-SUFFIX,futuniuniu.com,📈 富途牛牛
+HOST-SUFFIX,futubull.cn,📈 富途牛牛
+HOST-SUFFIX,futubull.com,📈 富途牛牛
+HOST-SUFFIX,futuchain.com,📈 富途牛牛
+HOST-SUFFIX,futustatic.com,📈 富途牛牛
+HOST-SUFFIX,fututrade.com,📈 富途牛牛
+HOST-SUFFIX,fututrustee.com,📈 富途牛牛
+
+Futu - 你之前补充的静态 / CDN
+
+HOST-SUFFIX,futucdn.com,📈 富途牛牛
+HOST-SUFFIX,futunnstatic.com,📈 富途牛牛
+HOST-SUFFIX,futu-img.com,📈 富途牛牛
+HOST-SUFFIX,futu-inc.com,📈 富途牛牛
+HOST,cdn.futustatic.com,📈 富途牛牛
+
+Futu - OpenAPI / 行情接口
+
+HOST,openapi.futunn.com,📈 富途牛牛
+HOST-SUFFIX,futuopend.com,📈 富途牛牛
+HOST-SUFFIX,futuapi.com,📈 富途牛牛
+HOST-SUFFIX,futunnopen.com,📈 富途牛牛
+
+moomoo - App / 账户 / 资产服务
+
+HOST-SUFFIX,moomoo.com,📈 富途牛牛
+HOST-SUFFIX,moomooapp.com,📈 富途牛牛
+HOST-SUFFIX,moomoo.io,📈 富途牛牛
+HOST-SUFFIX,moomoo.com.sg,📈 富途牛牛
+HOST-SUFFIX,moomoo.com.au,📈 富途牛牛
+HOST-SUFFIX,api.moomoobull.com,📈 富途牛牛
+HOST-SUFFIX,moomooequity.com,📈 富途牛牛
+HOST-SUFFIX,moomootrustee.com,📈 富途牛牛
+
+Futu / moomoo - 归因 / 推送相关
+
+HOST-SUFFIX,9oju31.launches.appsflyersdk.com,📈 富途牛牛
+HOST-SUFFIX,sgqt0j.launches.appsflyersdk.com,📈 富途牛牛
+
+Futu / moomoo - 腾讯 IM 长连接
+
+HOST-SUFFIX,shortconn.im.qcloud.com,📈 富途牛牛
+
+关键词兜底
+
+HOST-KEYWORD,futunn,📈 富途牛牛
+HOST-KEYWORD,futu,📈 富途牛牛
+HOST-KEYWORD,moomoo,📈 富途牛牛
+
+Futu / moomoo - IP 段兜底
+
+注意：IP 规则可能有误伤，建议放在域名规则后面
+
+IP-CIDR,1.14.242.0/23,📈 富途牛牛,no-resolve
+IP-CIDR,14.152.91.0/24,📈 富途牛牛,no-resolve
+IP-CIDR,38.65.217.0/24,📈 富途牛牛,no-resolve
+IP-CIDR,42.193.128.0/24,📈 富途牛牛,no-resolve
+IP-CIDR,43.130.30.0/24,📈 富途牛牛,no-resolve
+IP-CIDR,43.130.170.0/24,📈 富途牛牛,no-resolve
+IP-CIDR,43.132.107.0/24,📈 富途牛牛,no-resolve
+IP-CIDR,43.135.64.0/24,📈 富途牛牛,no-resolve
+IP-CIDR,43.135.82.0/24,📈 富途牛牛,no-resolve
+IP-CIDR,43.142.232.0/24,📈 富途牛牛,no-resolve
+IP-CIDR,43.145.30.0/24,📈 富途牛牛,no-resolve
+IP-CIDR,43.153.191.0/24,📈 富途牛牛,no-resolve
+IP-CIDR,43.153.233.0/24,📈 富途牛牛,no-resolve
+IP-CIDR,43.160.156.0/24,📈 富途牛牛,no-resolve
+IP-CIDR,49.51.78.0/24,📈 富途牛牛,no-resolve
+IP-CIDR,49.234.241.0/24,📈 富途牛牛,no-resolve
+IP-CIDR,101.32.198.0/24,📈 富途牛牛,no-resolve
+IP-CIDR,106.55.66.0/23,📈 富途牛牛,no-resolve
+IP-CIDR,111.230.119.0/24,📈 富途牛牛,no-resolve
+IP-CIDR,111.230.214.0/24,📈 富途牛牛,no-resolve
+IP-CIDR,119.28.37.0/24,📈 富途牛牛,no-resolve
+IP-CIDR,119.28.141.0/24,📈 富途牛牛,no-resolve
+IP-CIDR,119.28.183.0/24,📈 富途牛牛,no-resolve
+IP-CIDR,119.29.48.0/23,📈 富途牛牛,no-resolve
+IP-CIDR,119.91.245.0/23,📈 富途牛牛,no-resolve
+IP-CIDR,119.147.110.0/24,📈 富途牛牛,no-resolve
+IP-CIDR,121.5.97.0/24,📈 富途牛牛,no-resolve
+IP-CIDR,124.156.124.0/24,📈 富途牛牛,no-resolve
+IP-CIDR,124.156.233.0/24,📈 富途牛牛,no-resolve
+IP-CIDR,124.156.234.0/24,📈 富途牛牛,no-resolve
+IP-CIDR,129.226.79.0/24,📈 富途牛牛,no-resolve
+IP-CIDR,129.226.111.0/24,📈 富途牛牛,no-resolve
+IP-CIDR,162.14.10.0/24,📈 富途牛牛,no-resolve
+IP-CIDR,170.106.48.0/23,📈 富途牛牛,no-resolve
+IP-CIDR,170.106.62.0/24,📈 富途牛牛,no-resolve
+IP-CIDR,170.106.201.0/24,📈 富途牛牛,no-resolve
+IP-CIDR,175.178.207.0/24,📈 富途牛牛,no-resolve
+IP-CIDR,183.60.225.0/24,📈 富途牛牛,no-resolve
+IP-CIDR,193.112.84.0/24,📈 富途牛牛,no-resolve
+IP-CIDR,193.112.234.0/24,📈 富途牛牛,no-resolve
+
+Futu / moomoo - 单 IP 兜底
+
+IP-CIDR,43.134.158.106/32,📈 富途牛牛,no-resolve
+IP-CIDR,43.132.138.6/32,📈 富途牛牛,no-resolve
+IP-CIDR,119.28.201.30/32,📈 富途牛牛,no-resolve
+IP-CIDR,49.51.77.113/32,📈 富途牛牛,no-resolve
+IP-CIDR,43.153.234.107/32,📈 富途牛牛,no-resolve
+IP-CIDR,43.153.249.33/32,📈 富途牛牛,no-resolve
+IP-CIDR,43.163.17.229/32,📈 富途牛牛,no-resolve
+IP-CIDR,42.194.152.250/32,📈 富途牛牛,no-resolve
+IP-CIDR,43.132.106.6/32,📈 富途牛牛,no-resolve
+IP-CIDR,43.132.106.8/32,📈 富途牛牛,no-resolve
+IP-CIDR,43.132.138.67/32,📈 富途牛牛,no-resolve
+IP-CIDR,1.15.158.235/32,📈 富途牛牛,no-resolve
